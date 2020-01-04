@@ -103,6 +103,7 @@ h1 {
   font-family: sans-serif;
   margin-top: 100px;
   margin-bottom: 20px;
+  padding-top: 80px;
 }
 .testo {
   color: #728085;
@@ -122,5 +123,9 @@ button {
 button:hover {
   color: #89D340;
   background-color:  rgba(255, 255, 255, 0.1);
+}
+.jumbo {
+  text-align: center;
+  margin-top: 40px;
 
 }
