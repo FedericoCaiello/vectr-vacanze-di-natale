@@ -60,8 +60,12 @@ header {
   font-weight: 400;
   font-family: sans-serif;
 }
-.fas {
+.fa-chevron-down {
   font-size: 10px;
+}
+.fa-bars {
+  font-size: 40px;
+  color: white;
 }
 .button_lime {
   border: 2px solid #89D340;
@@ -83,6 +87,11 @@ header {
 }
 .color_white:hover {
   color: #89D340;
+}
+.hamburger_menu {
+  display: flex;
+  align-self: center;
+  margin-left: 100px;
 }
 /* HEADER TOP */
 
@@ -127,5 +136,38 @@ button:hover {
 .jumbo {
   text-align: center;
   margin-top: 40px;
+}
+/* main */
+.main-top {
+  background-color: white;
+}
+.first-up {
+  height: 80px;
+  width: 65%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.loghi {
+  width: 100px;
+  color: black;
+}
+.dimensioni {
+  height: 80px;
+  width: 150px;
+  list-style: none;
+}
 
+
+
+@media screen and (max-width: 900px) {
+  .display_none_xs {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .display_none_lg {
+    display: none;
+  }
 }
